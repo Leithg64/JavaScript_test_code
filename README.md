@@ -1,2 +1,2 @@
 # JavaScript_test_code
- A site to implement all of my JavaScript knowledge, practice what I know, and to consultt whenever I need help or a refresher
+ A site to implement my JavaScript knowledge, practice what I know, and to consult whenever I need help or a refresher.
