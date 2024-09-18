@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div id="dateAndTime"></div>
+        <h1 id="timeGreet"></h1>
+    </header>
+    <br>
+
+    <div id="infoContainer">
+        <h1>Tell me about yourself: </h1>
+
+        <label>Name: </label>
+        <input id="myName"><br>
+        <label>Age: </label>
+        <input id="myAge"><br>
+        <label>Favorite Food: </label>
+        <input id="myFood"><br> <br>
+        <button id="mySubmit" class="buttons">Submit</button>
+        <p id="myP"></p>
+    </div>
+    <br>
+    
+    <div id="btnContainer">
+        <p id="countLabel">0</p>
+        <br>
+        <button id="decreaseBtn" class="buttons">Decrease</button> 
+        <button id="resetBtn" class="buttons">Reset</button> 
+        <button id="increaseBtn" class="buttons">Increase</button> 
+    </div>
+    <br>
+
+ 
+    <div id="genContainer">
+        <h2>Dont like counting? Try this:</h2>
+        <button id="numberBtn" class="buttons">Generate a Number</button>
+        <p id="genNum"><b></b></p>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
