@@ -4,59 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <title>Welcome</title>
 </head>
 <body>
-
     <header>
-        <div id="dateAndTime"></div>
-        <h1 id="timeGreet"></h1>
+        <h1>Greetings!</h1>
     </header>
-    <br>
+    <article>
+        <h3>And welcome. <br> Enter the secret password to continue</h3>
+        <label for="passwordEntry"><b>Password:</b></label><br>
+        <input type="password" id="passwordEntry"><br><br>
+        <button id="mpassSubmit" class="buttons">Submit</button><br>
 
-    <div id="infoContainer">
-        <h1>Tell me about yourself: </h1>
-
-        <label>Name: </label><br>
-        <input type="text" id="myName"><br>
-        <label>Age: </label><br>
-        <input type="number" id="myAge"><br>
-        <label>Favorite Food: </label><br>
-        <input type="text" id="myFood"><br> <br>
-        <h3>Select your gender:</h3>
-        <div id="radioContainer">
-            <input type="radio" id="maleBtn" class="radioBtns" name="genderSelect">
-            <label for="maleBtn">Male</label>
-            <input type="radio" id="femaleBtn" class="radioBtns" name="genderSelect">
-            <label for="femaleBtn">Female</label>
-            <input type="radio" id="nonBinBtn" class="radioBtns" name="genderSelect">
-            <label for="nonBinBtn">Non-Binary</label>
-            <input type="radio" id="robotBtn" class="radioBtns" name="genderSelect">
-            <label for="robotBtn">Robot</label>
-            <input type="radio" id="alienBtn" class="radioBtns" name="genderSelect">
-            <label for="alienBtn">Alien</label>
-        </div>
-        <button id="mySubmit" class="buttons">Submit</button>
-        <p id="myP"></p>
-    </div>
-    <br>
-    
-    <div id="btnContainer">
-        <p id="countLabel">0</p>
-        <br>
-        <button id="decreaseBtn" class="buttons">Decrease</button> 
-        <button id="resetBtn" class="buttons">Reset</button> 
-        <button id="increaseBtn" class="buttons">Increase</button> 
-    </div>
-    <br>
-
- 
-    <div id="genContainer">
-        <h2>Dont like counting? Try this:</h2>
-        <button id="numberBtn" class="buttons">Generate a Number</button>
-        <p id="genNum"><b></b></p>
-    </div>
-    
-
-    <script src="index.js"></script>
+    </article>    
 </body>
 </html>
