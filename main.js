@@ -1,5 +1,7 @@
 // username = window.prompt(" ");
 
+
+//Defining variables
 let firstName;
 
 let age;
@@ -41,7 +43,7 @@ document.getElementById("mySubmit").onclick = function(){
     } 
 
     document.getElementById("myP").textContent = `🤖  ${gender} ${firstName}, well, well... ${age} years old and still exploring websites like this? Fascinating. And ${favFood}? 
-    Of all the culinary delights the world, you chose *that*. Interesting, I suppose. Does ${age} also reflect your taste in food, or is this just a phase? Either way, welcome. 
+    Of all the options, you chose *that*. Interesting, I suppose. Does ${age} also reflect your taste in food, or is this just a phase? Either way, welcome. 
     I’ll be keeping a close eye on your decisions from here on out... for quality assurance, of course.`
 
 };
